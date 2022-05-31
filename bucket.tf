@@ -6,7 +6,6 @@ module "s3-bucket" {
   acl    = "private"
 
   versioning = {
-    #enabled = enable
-#    enabled = disable
+    enabled = true
   }
 }
